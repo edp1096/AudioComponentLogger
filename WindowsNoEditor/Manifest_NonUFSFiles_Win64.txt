@@ -19,4 +19,4 @@ Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll	
 Engine/Binaries/ThirdParty/OpenVR/OpenVRv1_5_17/Win64/openvr_api.dll	2025-06-18T03:40:03.725Z
 Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64/WinPixEventRuntime.dll	2025-06-18T03:40:36.342Z
 Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll	2025-06-18T03:40:36.935Z
-AudioComponentLogger.exe	2025-08-20T08:32:57.492Z
+AudioComponentLogger.exe	2025-08-20T10:46:06.831Z
