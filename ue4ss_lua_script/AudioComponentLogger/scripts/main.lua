@@ -89,11 +89,18 @@ NotifyOnNewObject("/Script/Engine.AudioComponent", function(ctx)
     end)
 end)
 
+NotifyOnNewObject("/Script/SB.SBCharacterSoundSet", function(ctx)
+    dprint("SBCharacterSoundSet: " .. tostring(ctx:GetFullName()))
+    bprint("SBCharacterSoundSet: " .. tostring(ctx:GetFullName()))
+end)
+
 -- Simple player restart with level info
 RegisterHook("/Script/Engine.PlayerController:ClientRestart", function()
     actor = nil
     dprint("PlayerController:ClientRestart: " .. os.date(ymdFormat))
     dprint("Current Map: " .. GetMapName())
+    bprint("PlayerController:ClientRestart: " .. os.date(ymdFormat))
+    bprint("Current Map: " .. GetMapName())
 end)
 
 function SetupMod(modActor)
